@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function onClickAdd(){
+                debugger;
+                var firstNum=Number(document.getElementById("txtFirstNum").value);
+                var secondNum=Number(document.getElementById("txtSeondnum").value);
+                alert(firstNum+secondNum);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Number</h1>
+        <label id="lblFirstNum">First number</label>
+        <input id="txtFirstNum" type="number">
+        <label id="lblSecondNum">Second number</label>
+        <input id="txtSeondnum" type="number">
+        <button id="btnAdd" onclick="onClickAdd()">Add</button>
+    </body>
+</html>

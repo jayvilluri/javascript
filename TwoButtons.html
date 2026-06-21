@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        result = 0
+        function onClickAdd() {
+            debugger;
+            var firstNum =Number(document.getElementById("txtFirstNum").value);
+            var secondNum = Number(document.getElementById("txtSecondnum").value);
+            alert(firstNum + secondNum);
+        }
+        function onClickSubtract() {
+            debugger;
+            var firstNum = Number(document.getElementById("txtFirstNum").value);
+            var secondNum = Number(document.getElementById("txtSecondnum").value);
+            alert(firstNum - secondNum);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Numbers</h1>
+    <label id="lblFirstNum">First number</label><br>
+    <input type="number" id="txtFirstNum"><br>
+    <label id="lblSecondNum">Second number</label><br>
+    <input type="number" id="txtSecondnum"><br>
+    <button id="btnAdd" onclick="onClickAdd()">Add</button><br>
+    <button id="btnSubtract" onclick="onClickSubtract()">Subtract</button>
+</body>
+
+</html>

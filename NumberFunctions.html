@@ -2,46 +2,45 @@
 <html>
 
 <head>
-    <script>
-        result=0
-        function onClickAdd(){
-            debugger;
-            var firstNumber=Number(document.getElementById("txtFirstNum").value);
-            var secondNumber=Number(document.getElementById("txtSecondnum").value);
-            alert(firstNumber+secondNumber)
-        }
-          function onClickSubtract(){
-            debugger;
-            var firstNumber=Number(document.getElementById("txtFirstNum").value);
-            var secondNumber=Number(document.getElementById("txtSecondnum").value);
-            alert(firstNumber-secondNumber)
-          }
-           function onClickMultipication(){
-            debugger;
-            var firstNumber=Number(document.getElementById("txtFirstNum").value);
-            var secondNumber=Number(document.getElementById("txtSecondnum").value);
-            alert(firstNumber*secondNumber)
-          }
-          function onClickDivision(){
-            debugger;
-            var firstNumber=Number(document.getElementById("txtFirstNum").value);
-            var secondNumber=Number(document.getElementById("txtSecondnum").value);
-            alert(firstNumber%secondNumber)
-          }
-    </script>
+  <script>
+    result = 0
+    function onClickAdd() {
+      debugger;
+      var firstNumber = Number(document.getElementById("txtFirstNum").value);
+      var secondNumber = Number(document.getElementById("txtSecondnum").value);
+      alert(firstNumber + secondNumber)
+    }
+    function onClickSubtract() {
+      debugger;
+      var firstNumber = Number(document.getElementById("txtFirstNum").value);
+      var secondNumber = Number(document.getElementById("txtSecondnum").value);
+      alert(firstNumber - secondNumber)
+    }
+    function onClickMultipication() {
+      debugger;
+      var firstNumber = Number(document.getElementById("txtFirstNum").value);
+      var secondNumber = Number(document.getElementById("txtSecondnum").value);
+      alert(firstNumber * secondNumber)
+    }
+    function onClickDivision() {
+      debugger;
+      var firstNumber = Number(document.getElementById("txtFirstNum").value);
+      var secondNumber = Number(document.getElementById("txtSecondnum").value);
+      alert(firstNumber % secondNumber)
+    }
+  </script>
 </head>
 
 <body>
-    <h1>Number functions</h1>
-    <label id="lblFirstNum">First number</label><br>
-    <input type="number" id="txtFirstNum"><br>
-    <label id="lblSecondNum">Second number</label><br>
-    <input type="number" id="txtSecondnum"><br>
-    <button id="btnAdd" onclick="onClickAdd()">Add</button><br>
-    <button id="btnSubtract" onclick="onClickSubtract()">Subtract</button><br>
-    <button id="btnMultiplication" onclick="onClickMultipication()">Multiplication</button><br>
-    <button id="btnDivision" onclick="onClickDivision()">Division</button><br>
-
+  <h1>Number functions</h1>
+  <label id="lblFirstNum">First number</label><br>
+  <input type="number" id="txtFirstNum"><br>
+  <label id="lblSecondNum">Second number</label><br>
+  <input type="number" id="txtSecondnum"><br>
+  <button id="btnAdd" onclick="onClickAdd()">Add</button><br>
+  <button id="btnSubtract" onclick="onClickSubtract()">Subtract</button><br>
+  <button id="btnMultiplication" onclick="onClickMultipication()">Multiplication</button><br>
+  <button id="btnDivision" onclick="onClickDivision()">Division</button><br>
 </body>
 
 </html>

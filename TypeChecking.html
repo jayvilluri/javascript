@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function onclickTypechecking() {
+            debugger;
+            var number = typeof(document.getElementById("txtNum").value);
+            var nan = isNaN(document.getElementById("txtNum").value);
+            alert(number);
+            alert(nan);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Type checking</h1>
+    <label id="lblNum">Enter number</label>
+    <input id="txtNum" type="text">
+    <button id="btnDecimal" onclick="onclickTypechecking()">Type checking</button>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function onclickDecimal(){
+                debugger;
+                var number=Number(document.getElementById("txtNum").value);
+                alert(number.toFixed(4));
+               
+                
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Decimal</h1>
+        <label id="lblNum">Enter number</label>
+        <input id="txtNum" type="number" >
+        <button id="btnDecimal" onclick="onclickDecimal()">Decimal</button>
+    </body>
+</html>

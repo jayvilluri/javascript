@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function onClickIncre(){
+                debugger;
+                var number=Number(document.getElementById("txtNum").value);
+                number++;
+                alert(number);
+                alert(number+1);
+              alert(number+2);
+              alert(number+3);
+              alert(number+4);
+              alert(number+5);
+
+            }
+            function onClickDecre(){
+                debugger;
+                var number=Number(document.getElementById("txtNum").value);
+                number--;
+                alert(number);
+                alert(number-1);
+                alert(number-2);
+                alert(number-3);
+                alert(number-4);
+                alert(number-5);
+                alert(number-6);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Enter the number</h1>
+        <label id="lblNum">Number</label>
+        <input id="txtNum" type="number">
+        <button id="btnIncre" onclick="onClickIncre()">Increment</button>
+        <button id="btnDecre" onclick="onClickDecre()">Decrement</button>
+    </body>
+</html>

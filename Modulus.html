@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function onclickModulus(){
+                debugger;
+                var number=Number(document.getElementById("txtNum").value);
+                alert(number%3);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Modulus</h1>
+        <label id="lblNum">Enter number</label>
+        <input id="txtNum" type="number">
+        <button id="btnModulus" onclick="onclickModulus()">Modulus</button>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function onClickCheck() {
+            debugger;
+            var number = Number(document.getElementById("txtNumber").value);
+            var power = Number(document.getElementById("txtPower").value);
+            result = number ** power
+            alert(result);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exponential</h1>
+    <label id="lblExponential">Exponential</label>
+    <input id="txtNumber" type="number">
+    <input id="txtPower" type="number">
+    <button id="btnCheck" onclick="onClickCheck()">Check</button>
+</body>
+
+</html>

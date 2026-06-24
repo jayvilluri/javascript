@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function onClickTotal() {
+            debugger;
+            var Telugu = Number(document.getElementById("txtTelugu").value);
+            var hindi = Number(document.getElementById("txtHindi").value);
+            var english = Number(document.getElementById("txtEnglish").value);
+            var maths = Number(document.getElementById("txtMaths").value);
+            var science = Number(document.getElementById("txtScience").value);
+            var social = Number(document.getElementById("txtSocial").value);
+            result=Telugu+hindi+english+maths+science+social
+            alert(result);
+        }
+        function onClickAverage() {
+            debugger;
+            var Telugu = Number(document.getElementById("txtTelugu").value);
+            var hindi = Number(document.getElementById("txtHindi").value);
+            var english = Number(document.getElementById("txtEnglish").value);
+            var maths = Number(document.getElementById("txtMaths").value);
+            var science = Number(document.getElementById("txtScience").value);
+            var social = Number(document.getElementById("txtSocial").value);
+            result=Telugu+hindi+english+maths+science+social/6
+            alert(result);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Subjects</h1>
+    <label id="lblTelugu">Telugu</label><br>
+    <input id="txtTelugu" type="text"><br>
+    <label id="lblHindi">Hindi</label><br>
+    <input type="text" id="txtHindi"><br>
+    <label id="lblEnglish">English</label><br>
+    <input id="txtEnglish" type="text"><br>
+    <label id="lblMaths">Maths</label><br>
+    <input id="txtMaths" type="text"><br>
+    <label id="lblScience">Science</label><br>
+    <input id="txtScience" type="text"><br>
+    <label id="lblSocial">Social</label><br>
+    <input id="txtSocial" type="text"><br>
+    <button id="btnTotal" onclick="onClickTotal()">Total</button><br>
+    <button id="btnAverage" onclick="onClickAverage()">Average</button><br>
+</body>
+
+</html>

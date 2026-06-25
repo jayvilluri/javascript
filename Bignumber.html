@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function findbig(){
+                debugger;
+                var a=Number(document.getElementById("txtNum1").value);
+                var b=Number(document.getElementById("txtNum2").value);
+                if (a>b) {
+                    alert(a + "is the big number");
+                } else {
+                     alert(b + "is the big number");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Big number</h1>
+        <label id="lblNum" >Enter the number 1</label>
+        <input id="txtNum1" type="number">
+         <label id="lblNum" >Enter the number 2</label>
+        <input id="txtNum2" type="number">
+        <button id="btnCheck" onclick="findbig()">Check</button>
+    </body>
+</html>

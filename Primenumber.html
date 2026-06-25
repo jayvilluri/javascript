@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function onClicSubmit() {
+            debugger;
+            var a = Number(document.getElementById("txtPrime").value);
+            if (a <= 1) {
+                alert(a + " is Prime number");
+            }
+            if (a == 2) {
+                alert(a + " is prime number");
+            }
+            if (a % 2 == 0) {
+                alert(a + " is not prime number");
+            }
+            if (a % 2 == 1) {
+                alert(a + " is prime number");
+            }
+
+        }
+    </script>   
+</head>
+
+<body>
+    <h1>Prime number</h1>
+    <label id="lblPrime">Enter a number</label>
+    <input id="txtPrime" type="number">
+    <button id="btnSubmit" onclick="onClicSubmit()">Submit</button>
+</body>
+
+</html>

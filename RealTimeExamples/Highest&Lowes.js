@@ -15,6 +15,5 @@ function onClickMin(){
    let d=document.getElementById("txtSdt4").value;
    let e=document.getElementById("txtSdt5").value;
    let min=Math.min(a,b,c,d,e);
-   
    alert(min);
 }

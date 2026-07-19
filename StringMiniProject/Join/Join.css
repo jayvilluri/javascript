@@ -1,0 +1,20 @@
+.box{
+    background-color: rgb(20, 242, 235);
+    text-align: center;
+    font-style: oblique;
+
+}
+.one{
+    background-color: rgb(248, 157, 1);
+    text-align: center;
+    font-style: oblique;
+    border: none;
+    border-radius: 8px;
+}
+.two{
+     background-color: rgb(231, 151, 14);
+    text-align: center;
+    font-style: oblique;
+    border: none;
+    border-radius: 8px;
+}

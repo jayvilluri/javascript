@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="Concat.js"></script>
+    <link rel="stylesheet" href="Concat.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;background-color: darkred;">Flowers</h1>
+    <div class="box">
+        <div>
+            <label id="lblFlower"><b>Flowers</b></label>
+            <input type="text" id="txtFlowers">
+        </div>
+        <br>
+        <button id="btnPush" onclick="onClickPush()" class="container">Push</button>
+        <button id="btnPop" onclick="onClickPop()" class="display">Pop</button>
+        <button id="btnUnshift" onclick="onClickUnshift()" class="one">Unshift</button>
+        <button id="btnShift" onclick="onClickShift()" class="two">Shift</button>
+        <h2 id="pResult"></h2>
+        <br>
+        <h1 style="text-align: center;background-color: darkred;">Fruits</h1>
+        <div class="box">
+        <div>
+        <label id="lblFruits"><b>Fruits</b></label>
+        <input type="text" id="txtFruits">
+        </div>
+        <br>
+        <button id="btnPush" onclick="onClickFruitsPush()" class="container">Push</button>
+        <button id="btnPop" onclick="onClickFruitsPop()" class="display">Pop</button>
+        <button id="btnUnshift" onclick="onClickFruitsUnshift()" class="one">Unshift</button>
+        <button id="btnShift" onclick="onClickFruitsShift()" class="two">Shift</button>
+        <h2 id="pFruitsResult"></h2>
+        <br>
+        <div class="start">
+        <h1 style="text-align: center; background-color: darkred;" >Concat</h1>
+        <button id="btnAdd" onclick="onClickAdd()">Add</button>
+        <h2 id="pResultAll"></h2>
+        </div>
+</body>
+
+</html>

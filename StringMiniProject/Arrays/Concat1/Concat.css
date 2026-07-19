@@ -1,0 +1,44 @@
+.box{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    font-style: inherit;
+    font-size: 30px;
+}
+.container{
+    background-color: chartreuse;
+    color: cornsilk;
+    border: none;
+
+    border-radius: 8px;
+}
+.display{
+    background-color: chartreuse;
+    color: cornsilk;
+    border: none;
+    border-radius: 8px;
+}
+.one{
+    background-color: chartreuse;
+    color: cornsilk;
+    border: none;
+    border-radius: 8px;
+}
+.two{
+    background-color: chartreuse;
+    color: cornsilk;
+    border: none;
+    border-radius: 8px;
+}
+
+#btnAdd{
+     background-color: chartreuse;
+    color: cornsilk;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    margin: 0px auto;
+}
+#pResultAll{
+    text-align: center;
+}
